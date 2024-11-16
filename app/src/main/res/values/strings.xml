@@ -1,5 +1,24 @@
 <resources>
     <string name="app_name">UI App</string>
+    <!-- Sign In -->
+    <string name="login_mTitle">FoodShop</string>
+    <string name="login_sTitle">The Fastest Food Delivery</string>
+    <string name="login_user_name">User Name</string>
+    <string name="login_user_pass">User Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_no_account">Don\'t Have Account? Sign Up</string>
+    <string name="login_forgot">Forgot Password?</string>
+    <!-- End Of Sign In -->
+
+    <!-- Sign Up -->
+    <string name="sign_in_mTitle">Sign Up</string>
+    <string name="sign_up_user_name">Your Name</string>
+    <string name="sign_up_user_email"> Email</string>
+    <string name="sign_up_user_pass"> Password</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="sign_already_account">Already Have Account? Sign In</string>
+    <string name="sign_contact_support">Contact For Support</string>
+    <!-- End Of Sign UP -->
 
     <!-- Assign One -->
     <string name="login_heading">Login Details</string>
@@ -43,6 +62,8 @@
     <string name="skip">Skip</string>
     <string name="lorem">Lorem ipsum dolor sit amet consectetur.Mi\nultricies ultrices fermentum a.Duis neque\nlectus pharetra ac sed lorem.</string>
     <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <string name="make_memories">Make Memories That Last\na Lifetime</string>
