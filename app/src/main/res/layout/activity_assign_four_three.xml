@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainFThree"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssignFourThreeActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="30dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/mtvLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/intersemibold"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:padding="4dp"
+        android:text="@string/login_tag"
+        android:textColor="#2A2A2A"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivTPLogo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/loginlogo"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/mtvLogin" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/mtvMobileTag"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/intermedium"
+        android:includeFontPadding="false"
+        android:padding="4dp"
+        android:text="@string/mobile_hint"
+        android:textColor="#2A2A2A"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/ivTPLogo" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tILMobile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text_input_border"
+        android:textColorHint="#696969"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/mtvMobileTag">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/logincheck"
+            android:fontFamily="@font/interregular"
+            android:hint="@string/m_hint_number"
+            android:includeFontPadding="false"
+            android:inputType="phone"
+            android:textSize="14sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/mtvPassTag"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/intermedium"
+        android:includeFontPadding="false"
+        android:padding="4dp"
+        android:text="@string/login_pass"
+        android:textColor="#2A2A2A"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/tILMobile" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tILPass"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text_input_border"
+        android:textColorHint="#696969"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/mtvPassTag"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/interregular"
+            android:hint="@string/login_asterik_hint"
+            android:includeFontPadding="false"
+            android:inputType="textPassword"
+            android:textSize="14sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/mbLoginBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#F75D37"
+        android:fontFamily="@font/intersemibold"
+        android:includeFontPadding="false"
+        android:padding="16dp"
+        android:text="@string/login_tag"
+        android:textSize="16sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/tILPass" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/mtvNoAccount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/intersemibold"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:padding="6dp"
+        android:text="@string/login_don_t"
+        android:textColor="#696969"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/mbLoginBtn" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/mtvOr"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/intersemibold"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:padding="4dp"
+        android:text="@string/or"
+        android:textColor="#696969"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/mtvNoAccount" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivGoogleLogo"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="6dp"
+        android:src="@drawable/googleicon"
+        app:layout_constraintEnd_toStartOf="@+id/mtvCG"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/mtvOr" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/mtvCG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/intermedium"
+        android:includeFontPadding="false"
+        android:padding="4dp"
+        android:text="@string/continue_with_google"
+        android:textColor="#2A2A2A"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivGoogleLogo"
+        app:layout_constraintTop_toTopOf="@+id/ivGoogleLogo" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivFbLogo"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/facebookicon"
+        android:layout_marginHorizontal="6dp"
+        app:layout_constraintEnd_toStartOf="@+id/mtvCFB"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/ivGoogleLogo" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/mtvCFB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/intermedium"
+        android:includeFontPadding="false"
+        android:padding="4dp"
+        android:text="@string/continue_with_facebook"
+        android:textColor="#2A2A2A"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toEndOf="@+id/ivFbLogo"
+        app:layout_constraintTop_toTopOf="@+id/ivFbLogo" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/mtvOrSecond"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/intersemibold"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:padding="4dp"
+        android:text="@string/or"
+        android:textColor="#696969"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/mtvCFB" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/mtvCGuest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/intersemibold"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:padding="4dp"
+        android:text="@string/continue_as_guest"
+        android:textColor="#696969"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/mtvOrSecond" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="30dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
