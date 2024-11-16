@@ -1,7 +1,8 @@
-package com.practice.androidui
+package com.practice.androidui.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.practice.androidui.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

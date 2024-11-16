@@ -8,6 +8,12 @@
     <string name="login_button">Login</string>
     <string name="login_no_account">Don\'t Have Account? Sign Up</string>
     <string name="login_forgot">Forgot Password?</string>
+
+    <!--    -->
+    <string name="food_shop">FoodShop</string>
+    <string name="user_name">User Name</string>
+    <string name="user_pass">Password</string>
+
     <!-- End Of Sign In -->
 
     <!-- Sign Up -->
@@ -19,76 +25,5 @@
     <string name="sign_already_account">Already Have Account? Sign In</string>
     <string name="sign_contact_support">Contact For Support</string>
     <!-- End Of Sign UP -->
-
-    <!-- Assign One -->
-    <string name="login_heading">Login Details</string>
-    <string name="login_tag">Login</string>
-    <string name="login_unep">Username, email &amp; phone number</string>
-    <string name="login_password">Password</string>
-    <string name="forgot_pass_tag">Forgot Password?</string>
-    <string name="option_tag">Or Sign up With</string>
-    <!-- End Of Assign One -->
-
-    <!-- Assign Two -->
-    <string name="french_tag">
-         <font color="#FA0505">B</font><font color="#FA5D05">O</font><font color="#FAF005">N</font><font color="#19FA05">J</font><font color="#052CFA">O</font><font color="#AB05FA">R</font>
-      </string>
-    <string name="french_sub_tag">French Classes</string>
-    <string name="user_name">Claire Depardieu</string>
-    <string name="user_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu lacinia egestas nulla est lectus venenatis feugiat tempor. Ullamcorper aliquam sed magnis in augue nisi. Maecenas vitae porttitos.</string>
-    <string name="login_email">Enter Your Email</string>
-    <string name="hint_email">Claire****@gmail.com</string>
-    <string name="hint_otp">+41 56*****780</string>
-    <string name="login_otp">Enter Your OTP</string>
-    <string name="login_pass">Enter Your Password</string>
-    <!-- End Of Assign Two -->
-
-    <!-- Assign Three & Three one -->
-    <string name="signin_tag">Lets Sign you in</string>
-    <string name="welcome_tag">Welcome Back,\nYou have been missed</string>
-    <string name="sign_up">Sign Up</string>
-    <string name="sign_in">Sign In</string>
-    <string name="or">or</string>
-    <string name="no_account"><b>Register Now</b> <font color="#555454"> Don’t have an account ?</font> </string>
-    <string name="register_tag">Lets Register\nAccount</string>
-    <string name="register_stag">Hello user, you have\na grateful journey</string>
-    <string name="reg_name">Name</string>
-    <string name="reg_b_name">Business name</string>
-    <string name="reg_phone">Phone</string>
-    <string name="reg_email">Email</string>
-    <string name="reg_pass">Password</string>
-    <string name="account_already"><b>Login</b> <font color="#555454"> Already have an account ?</font></string>
-    <string name="explore_the_world_with_ntourplace">Explore The World With\nTourPlace</string>
-    <string name="skip">Skip</string>
-    <string name="lorem">Lorem ipsum dolor sit amet consectetur.Mi\nultricies ultrices fermentum a.Duis neque\nlectus pharetra ac sed lorem.</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-    <string name="make_memories">Make Memories That Last\na Lifetime</string>
-    <string name="plan_your">Plan Your Dream Trip\nWith Tourplace</string>
-    <string name="mobile_hint">Enter your mobile number</string>
-    <string name="m_hint_number">1712345678</string>
-    <string name="login_asterik_hint">**********</string>
-    <string name="login_don_t">Don’t have an account?<font color="#F75D37"> Sign Up</font></string>
-    <string name="continue_with_google">Continue with Google</string>
-    <string name="continue_with_facebook">Continue with Facebook</string>
-    <string name="continue_as_guest">Continue as Guest</string>
-    <string name="hotel_details">Hotel Details</string>
-    <string name="hotel_name">Hotel Niribili</string>
-    <string name="hotel_price">$85</string>
-    <string name="hotel_location">Cox’s Bazar, Bangladesh</string>
-    <string name="hotel_reviews"><font color="#2A2A2A"> 4.4</font><font color="#F75D37"> (150 Reviews)</font></string>
-    <string name="hotel_stay">(For 01 Night/Room)</string>
-    <string name="hotel_about">About</string>
-    <string name="hotel_about_detail">Lorem ipsum dolor sit amet, consectetur adipiscing\nelit. Arcu, arcu dictumst habitant vel ut et\npellentesque. Ut in egestas blandit netus in\nscelerisque. Eget lectus ultrices pellentesque id.\n<font color="#F75D37">Read More...</font></string>
-    <string name="hotel_facilities">Facilities</string>
-    <string name="select_room">Select Room</string>
-    <string name="search_any_places">Search any places..</string>
-    <string name="categories">Categories</string>
-    <string name="see_all">See All</string>
-    <string name="most_visited">Most Visited</string>
-    <!-- End Of Assign Three & one-->
 
 </resources>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUpActivity"
+    tools:context=".fragment.SignUpUIOneFragment"
     android:background="@drawable/background">
 
     <androidx.appcompat.widget.AppCompatImageView
@@ -27,7 +27,7 @@
         android:text="@string/sign_in_mTitle"
         android:fontFamily="cursive"
         android:includeFontPadding="false"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintTop_toBottomOf="@id/balanced"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,7 +37,7 @@
         android:id="@+id/etSUserName"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="40dp"
         android:layout_marginHorizontal="30dp"
         android:hint="@string/sign_up_user_name"
         android:ems="10"
@@ -110,7 +110,7 @@
         android:textSize="18sp"
         android:textAlignment="center"
         android:layout_margin="20dp"
-        android:text="@string/login_no_account"
+        android:text="@string/sign_already_account"
         app:layout_constraintTop_toBottomOf="@id/btnUSignUp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
@@ -124,8 +124,8 @@
         android:textAlignment="center"
         android:layout_margin="30dp"
         android:text="@string/sign_contact_support"
+        app:layout_constraintTop_toBottomOf="@id/tvSSubTitle"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

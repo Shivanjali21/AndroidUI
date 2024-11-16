@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-
+        <!-- one #ff8978     -->
+        <item name="android:statusBarColor">@color/color_green</item>
     </style>
 
     <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />

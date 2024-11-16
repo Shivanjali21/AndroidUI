@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_nav_graph_one"
+    app:startDestination="@id/signInUIOneFragment">
+
+    <fragment
+        android:id="@+id/signInUIOneFragment"
+        android:name="com.practice.androidui.fragment.SignInUIOneFragment"
+        android:label="fragment_sign_in_u_i_one"
+        tools:layout="@layout/fragment_sign_in_u_i_one">
+        <action
+            android:id="@+id/action_signInUIOneFragment_to_signUpUIOneFragment"
+            app:destination="@id/signUpUIOneFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/signUpUIOneFragment"
+        android:name="com.practice.androidui.fragment.SignUpUIOneFragment"
+        android:label="fragment_sign_up_u_i_one"
+        tools:layout="@layout/fragment_sign_up_u_i_one">
+        <action
+            android:id="@+id/action_signUpUIOneFragment_to_signInUIOneFragment"
+            app:destination="@id/signInUIOneFragment"/>
+    </fragment>
+</navigation>
