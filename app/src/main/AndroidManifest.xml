@@ -12,39 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
-        <activity android:name=".SignUpActivity"
-            android:exported="false"
-            />
         <activity
-            android:name=".AssignFFiveActivity"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".AssignFFourActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AssignFourThreeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AssignFourTwoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AssignFourOneActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AssignFourActivity"
-            android:exported="false"
-            android:theme="@style/Theme.MyApplication" />
-        <activity
-            android:name=".AssignThreeOneActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AssignThreeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AssignTwoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AssignOneActivity"
+            android:name=".SignUpActivity"
             android:exported="false" />
         <activity
             android:name=".SignInActivity"
