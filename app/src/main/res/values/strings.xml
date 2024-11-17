@@ -24,6 +24,8 @@
     <string name="sign_up_button">Sign Up</string>
     <string name="sign_already_account">Already Have Account? Sign In</string>
     <string name="sign_contact_support">Contact For Support</string>
+    <string name="smart_home">Smart Home</string>
+    <string name="user_email">Email</string>
     <!-- End Of Sign UP -->
 
 </resources>

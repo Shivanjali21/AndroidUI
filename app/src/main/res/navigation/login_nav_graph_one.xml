@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/login_nav_graph_one"
-    app:startDestination="@id/signInUIOneFragment">
+    app:startDestination="@id/signInUIThreeFragment">
 
     <fragment
         android:id="@+id/signInUIOneFragment"
@@ -24,4 +24,22 @@
             android:id="@+id/action_signUpUIOneFragment_to_signInUIOneFragment"
             app:destination="@id/signInUIOneFragment"/>
     </fragment>
+
+    <fragment
+        android:id="@+id/loginInFragment"
+        android:name="com.practice.androidui.fragment.LoginInFragment"
+        android:label="fragment_login_in"
+        tools:layout="@layout/fragment_login_in"/>
+
+    <fragment
+        android:id="@+id/signInUITwoFragment"
+        android:name="com.practice.androidui.fragment.SignInUITwoFragment"
+        android:label="fragment_sign_in_u_i_two"
+        tools:layout="@layout/fragment_sign_in_u_i_two"/>
+    <fragment
+        android:id="@+id/signInUIThreeFragment"
+        android:name="com.practice.androidui.fragment.SignInUIThreeFragment"
+        android:label="fragment_sign_in_u_i_three"
+        tools:layout="@layout/fragment_sign_in_u_i_three" />
+
 </navigation>

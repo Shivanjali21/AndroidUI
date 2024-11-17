@@ -5,10 +5,6 @@
     android:id="@+id/login_nav_graph_two"
     app:startDestination="@id/loginInFragment">
 
-    <fragment
-        android:id="@+id/loginInFragment"
-        android:name="com.practice.androidui.fragment.LoginInFragment"
-        android:label="fragment_login_in"
-        tools:layout="@layout/fragment_login_in"/>
+
 
 </navigation>

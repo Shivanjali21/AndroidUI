@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- one #ff8978     -->
-        <item name="android:statusBarColor">@color/color_green</item>
+        <!-- one #ff8978   two ff835f  three 609aff four 38a343-->
+        <item name="android:statusBarColor">#ff512f</item>
     </style>
 
     <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
