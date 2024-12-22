@@ -5,4 +5,15 @@
         <!-- one #ff8978 two ff835f three 609aff four 38a343  -->
         <item name="android:statusBarColor">#ff512f</item>
     </style>
+
+
+    <style name="TransparentBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/TransparentBottomSheet</item>
+    </style>
+
+    <style name="TransparentBottomSheet" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
 </resources>

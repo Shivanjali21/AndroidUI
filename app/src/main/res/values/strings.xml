@@ -26,6 +26,9 @@
     <string name="sign_contact_support">Contact For Support</string>
     <string name="smart_home">Smart Home</string>
     <string name="user_email">Email</string>
+    <string name="apply_this_app_as_icon">Apply this app as Icon</string>
+    <string name="confirm">Confirm</string>
+    <string name="tap_on_a_icon">Tap on a icon to apply as app icon</string>
     <!-- End Of Sign UP -->
 
 </resources>
