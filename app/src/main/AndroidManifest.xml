@@ -17,10 +17,65 @@
             android:name=".activities.MainActivity"
             android:exported="true">
             <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+            android:name=".Icon1"
+            android:targetActivity=".activities.MainActivity"
+            android:icon="@drawable/android"
+            android:enabled="true"
+            android:exported="true">
+
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+
+        </activity-alias>
+
+        <activity-alias
+            android:name=".Icon2"
+            android:targetActivity=".activities.MainActivity"
+            android:icon="@drawable/christmas"
+            android:enabled="false"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity-alias>
+
+        <activity-alias
+            android:name=".Icon3"
+            android:targetActivity=".activities.MainActivity"
+            android:icon="@drawable/food"
+            android:enabled="false"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity-alias>
+
+        <activity-alias
+            android:name=".Icon4"
+            android:targetActivity=".activities.MainActivity"
+            android:icon="@drawable/happynewyear"
+            android:enabled="false"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity-alias>
 
     </application>
 
