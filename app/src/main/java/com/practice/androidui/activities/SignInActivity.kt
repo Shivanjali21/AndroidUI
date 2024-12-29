@@ -2,15 +2,15 @@ package com.practice.androidui.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.practice.androidui.databinding.ActivityMainBinding
+import com.practice.androidui.databinding.ActivitySignInBinding
 
-class MainActivity : AppCompatActivity() {
+class SignInActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivitySignInBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivitySignInBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.root.apply {
