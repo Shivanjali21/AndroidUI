@@ -2,9 +2,9 @@
 <resources>
     <color name="color_black">#FF000000</color>
     <color name="color_white">#FFFFFFFF</color>
-    <color name="color_zambezi">#635C5C</color>
-    <color name="color_heroic_blue">#0B6EFE</color>
-    <color name="color_assign_three">#555454</color>
+    <color name="color_zambezi">#A6A2A2</color>
+    <color name="color_grey">#868686</color>
+    <color name="color_green">#209925</color>
+    <color name="color_red">#E21608</color>
     <color name="color_orange">#FF5722</color>
-    <color name="color_yellow">#FFEB3B</color>
 </resources>
